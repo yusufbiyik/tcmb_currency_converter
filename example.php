@@ -11,6 +11,6 @@ echo 'ForexBuying : ' . $kur->convert('TRY','USD',25, 'ForexBuying') . '<br>';
 echo 'ForexSelling : ' . $kur->convert('TRY','USD',25, 'ForexSelling');
 
 // Tarih
-echo $kur->getDatae();
+echo $kur->getDate();
 
 ?>
